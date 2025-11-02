@@ -18,31 +18,31 @@ var bodies := {
 
 var dialogue_items : Array[Dictionary] = [
 	{	"expression": expressions["regular"],
-		"text": "I'm learning about arrays . . .",
+		"text": "I'm learning about [wave]arrays and dictionaries[/wave]. . .",
 		"character": bodies["pink"],
 	},
 
 	{
 		"expression": expressions["sad"],
-		"text":". . . it's a little complicated",
+		"text":". . . it's a little [shake]complicated[/shake]",
 		"character": bodies["sophia"]
 	},	
 	
 	{
 		"expression": expressions["happy"],
-		"text": "Let's see if I got it right: an array is a list of values!",
+		"text": "Let's see if I got it [b]right:[/b] an array is a [i]list of values[/i]!",
 		"character": bodies["pink"],
 	},	
 	
 	{
 		"expression": expressions["regular"],
-		"text": "Did I get it right? Did I?",
+		"text": "Did I get it right? [b][i]Did I?[/i][/b]",
 		"character": bodies["sophia"]
 	},
 
 	{	
 		"expression": expressions["happy"],
-		"text": "Hehe! Bye bye~!",
+		"text": "Hehe! Bye bye~! time for more [tornado freq= 3.0][rainbow val=1.0]learning[/rainbow][/tornado]",
 		"character": bodies["pink"]
 	}
 ]
